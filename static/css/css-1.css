@@ -1,0 +1,1143 @@
+﻿@charset "utf-8";body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr,span{margin:0;padding:0;}
+body{font-size:12px;font-family: "Microsoft YaHei" ! important;color:#000000;background:#fff;margin:0 auto;padding:0px;}
+a{text-decoration:none;color:#235aa7;outline:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+img{border:0px;vertical-align: middle;}
+li{list-style: none;}
+.pt10{padding-top: 10px;}
+.pl10{padding-left: 10px;}
+.pr10{padding-right: 10px;}
+.pb10{padding-bottom: 10px;}
+.pn5{padding: 5px;}
+.pt5{padding-top: 5px;}
+.pl5{padding-left: 5px;}
+.pr5{padding-right: 5px;}
+.pb5{padding-bottom: 5px;}
+.mt10{margin-top: 10px;}
+.mt30{margin-top: 30px;}
+.ml10{margin-left: 10px;}
+.mr10{margin-right: 10px;}
+.mb10{margin-bottom: 10px;}
+.mn5{margin: 5px;}
+.mt5{margin-top: 5px;}
+.ml5{margin-left: 5px;}
+.mr5{margin-right: 5px;}
+.mb5{margin-bottom: 5px;}
+
+
+.w1000 {
+width:1000px;
+margin: 0 auto;
+}
+.bodybj{
+width: 100%;
+min-width: 1000px;
+min-height: 1080px;
+background:url(../img/index/bodybj.png) no-repeat center 0;
+}
+
+
+
+.top {
+width: 100%;
+min-width: 1000px;
+height: 239px;
+display: inline-block;
+margin-top: 82px;
+margin-bottom: 35px;
+background: url(../img/index/topbj-1.png) no-repeat center center;
+}
+
+
+
+.main {
+width: 100%;
+min-width: 1000px;
+}
+.main .login_box {
+	width: 1007px;
+	height: 458px;
+	background:url(../img/index/mainbj-1.png) no-repeat left top;
+}
+
+
+
+
+/*第一页*/
+.main .login_box  .people_num {
+width: 368px;
+height: 121px;
+float: left;
+display: inline-block;
+margin-top: 55px;
+margin-left: 67px;
+}
+.main .login_box  .ml0{
+	margin-left: 0px;
+}
+.main .login_box  .people_num  .h2tit {
+width: 100%;
+height: 33px;
+background:url(../img/index/women-1.png) no-repeat center top;
+}
+.main .login_box  .people_num  .man{
+	background:url(../img/index/man-1.png) no-repeat center top;
+}
+.main .login_box  .people_num .numbox {
+width: 368px;
+height: 88px;
+overflow: hidden;
+margin-top: 10px;
+display: inline-block;
+}
+.main .login_box  .people_num .numbox  span {
+float: left;
+width: 56px;
+height: 78px;
+line-height: 72px;
+background:url(../img/index/numbj-1.png) no-repeat center center;
+margin-right: -4px;
+font-size: 50px;
+color: #48313a;
+text-align: center;
+}
+.main .login_box  .line {
+float: left;
+width: 131px;
+height: 154px;
+display: inline-block;
+margin-top: 32px;
+background:url(../img/index/line-1.png) no-repeat center top;
+}
+.clear {
+clear: both;
+height: 0px;
+overflow: hidden;
+}
+
+
+
+.pageone_title {
+width: 100%;
+height: 62px;
+display: inline-block;
+margin-top: 33px;
+background:url(../img/index/title1-1.png) no-repeat center top;
+}
+
+
+
+.yanzheng {
+width: 100%;
+height: 125px;
+display: inline-block;
+margin-top: 18px;
+text-align: center;
+}
+.yanzheng a {
+display: inline-block;
+width: 274px;
+height: 125px;
+background:url(../img/index/btn1-1.png) no-repeat center center;
+}
+
+
+
+/*第一页结束*/
+
+
+/*footer*/
+
+.footer {
+width: 100%;
+min-width: 1000px;
+height: 204px;
+display: inline-block;
+margin-top: 62px;
+}
+
+.footer .h2tit {
+width:100%;
+height: 47px;
+background:url(../img/index/footerbj-1.png) no-repeat center top;
+margin-bottom: 24px;
+}
+
+.footer ul {
+width: 100%;
+}
+.footer ul li{
+float: left;
+width: 20%;
+}
+.footer ul li a{
+display: block;
+width: 100%;
+text-align: center;
+}
+.footer ul li a img{
+
+}
+
+/*footer 结束*/
+
+
+
+/*问题一*/
+.question {
+width:100%;
+display: inline-block;
+margin-top: 87px;
+}
+.question .h2tit {
+width: 100%;
+height: 33px;
+background: url(../img/index/question1-1.png) no-repeat center 0;
+margin-bottom: 16px;
+}
+.question .nr {
+width: 100%;
+height: 112px;
+background:url(../img/index/nr1-1.png) no-repeat center 0;
+}
+.question .yes_No {
+width: 100%;
+height: 62px;
+margin-top: 50px;
+text-align: center;
+}
+.question .yes_No .box {
+width: 402px;
+height: 62px;
+display: inline-block;
+}
+.question .yes_No a {
+width: 156px;
+height: 62px;
+display: inline-block;
+float: left;
+}
+.question .yes_No a.yes {
+background:url(../img/index/yes-1.png) no-repeat left top;
+}
+.question .yes_No a.yes:hover {
+background:url(../img/index/yes2-1.png) no-repeat left top;
+}
+.question .yes_No a.no {
+	float: right;
+background:url(../img/index/no-1.png) no-repeat left top;
+}
+.question .yes_No a.no:hover {
+	float: right;
+background:url(../img/index/no2-1.png) no-repeat left top;
+}
+
+/*问题一结束*/
+
+
+
+/*问题二*/
+
+.question .q_two{
+background:url(../img/index/q_two-1.png) no-repeat center top;
+}
+.question .nr_two{
+background:url(../img/index/nr_two-1.png) no-repeat center top;
+}
+
+/*问题二结束*/
+
+/*问题三*/
+
+.question .q_three{
+background:url(../img/index/q_three-1.png) no-repeat center top;
+}
+.question .nr_three{
+background:url(../img/index/nr_three-1.png) no-repeat center top;
+}
+
+/*问题三结束*/
+
+/*加载页面*/
+.loading {
+width: 100%;
+display: inline-block;
+margin-top: 171px;
+}
+.loading  .h2tit{
+width: 100%;
+height: 33px;
+background: url(../img/index/zhucezhong-1.png) no-repeat center 0;
+}
+.loading .loading_pic {
+width: 100%;
+margin-top: 38px;
+text-align: center;
+}
+/*加载页面结束*/
+
+/*匹配页面*/
+.loading  .pp{
+background: url(../img/index/pp-1.png) no-repeat center 0;
+}
+/*匹配页面结束*/
+
+
+/*匹配成功*/
+.loading  .success{
+background: url(../img/index/success-1.png) no-repeat center 0;
+}
+/*匹配成功结束*/
+
+
+
+
+
+
+/*last page*/
+
+.last_page {
+width:100%;
+height: 638px;
+display: inline-block;
+margin-top: 79px;
+background:url(../img/index/last_page-1.png) no-repeat left top;
+text-align: center;
+}
+.last_page .imgbox {
+display: inline-block;
+margin-top: 45px;
+width: 231px;
+height: 234px;
+background: url(../img/index/imgboxbj-1.png) no-repeat left top;
+overflow: hidden;
+position: relative;
+}
+.last_page .imgbox  a{
+width: 210px;
+height: 210px;
+overflow: hidden;
+display: inline-block;
+
+margin-left:-6px;
+margin-top: 8px;
+}
+.last_page .imgbox  a img{
+	width: 100%;
+}
+.last_page  .h2tit {
+width: 100%;
+height: 26px;
+display: inline-block;
+margin-top: 8px;
+background: url(../img/index/pp2-1.png) no-repeat center top;
+}
+.last_page  .intro {
+width: 548px;
+height: 42px;
+line-height: 42px;
+display: inline-block;
+
+background: url(../img/index/bj-1.png) no-repeat center top;
+margin-top: 30px;
+}
+.last_page  .intro span{
+float: left;
+font-size: 16px;
+color: #48313a;
+font-weight: bold;
+text-align: left;
+}
+.last_page  .intro span.age{
+width: 145px;
+margin-left: 29px;
+text-indent: 37px;
+background: url(../img/index/age-1.png) no-repeat left center;
+}
+.last_page  .intro span.location{
+width: 188px;
+text-indent: 30px;
+background: url(../img/index/location-1.png) no-repeat left center;
+}
+.last_page  .intro span.state{
+width: 180px;
+text-indent: 33px;
+background: url(../img/index/state-1.png) no-repeat left center;
+}
+
+
+
+.last_page .btn_box {
+width: 100%;
+height: 125px;
+margin-top: 36px;
+}
+.last_page .btn_box a{
+display: inline-block;
+width: 100%;
+height: 100%;
+background: url(../img/index/start-1.png) no-repeat center center;
+}
+
+
+
+.last_page .total {
+width: 100%;
+
+display: inline-block;
+margin-top: 30px;
+}
+
+.last_page .total  p {
+float: left;
+text-align: left;
+height: 22px;
+line-height: 14px;
+background: url(../img/index/pbj-1.png) no-repeat left top;
+font-size: 18px;
+color: #48313a;
+overflow: hidden;
+}
+.last_page .total  p.p1 {
+width: 337px;
+margin-left: 42px;
+text-indent: 27px;
+}
+.last_page .total  p.p2 {
+width: 365px;
+text-indent: 27px;
+}
+.last_page .total  p.p3 {
+width: 245px;
+text-indent: 27px;
+}
+
+.last_page .total  p .num {
+color: #f85492;
+}
+
+.warning {
+width: 100%;
+height: 47px;
+display: inline-block;
+margin-top:58px; 
+background:url(../img/index/warning-1.png) no-repeat center top;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+
+
+/*last page 结束*/
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
+.888888 {
+width:auto;
+height:auto;
+float:left;
+}
