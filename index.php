@@ -1,8 +1,6 @@
 <?php
   require_once('./function.php');
   $ip = GetIp();
-  // echo "<pre>";
-  // print_r($ip);exit;
 
   $info = GetIpLookup($ip);
   if(!$info){
@@ -20,7 +18,7 @@
 <meta name="keywords" content="十三交友平台">
 <meta name="description" content="十三交友平台">
 <link href="./static/css/css-1.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.0/jquery.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.0/jquery.js"></script>
 <script type="text/javascript" src="./static/js/third/jquery.timers-1.2-1.js"></script>
 <script type="text/javascript" src="./static/js/third/jquery.SuperSlide.2.1.1-1.js"></script>
 </head>
@@ -32,7 +30,7 @@
   </div>
   <div class="main">
     <div class="w1000">
-    	
+      
       <div class="login_box" id="box0">
         <div class="people_num">
           <h2 class="h2tit"></h2>
@@ -110,7 +108,7 @@
         <div class="imgbox"> <a href="javascript:;"><img src="./static/img/index/pic-1.png" alt=""></a> </div>
         <h2 class="h2tit"> </h2>
         <div class="intro"> <span class="age">24岁</span> <span class="location">
-		<?php echo $info['province'].$info['city']?>市</span> <span class="state">正在聊天室聊天</span> </div>
+    <?php echo $info['province'].$info['city']?>市</span> <span class="state">正在聊天室聊天</span> </div>
         <div class="btn_box"> <a href="./brand.html"></a> </div>
         <div class="total">
           <p class="p1">目前有<span class="num">12331</span>名女性适合你</p>
@@ -136,64 +134,59 @@
     </div>
   </div>
 </div>
-
 <script>
 
 
-	$(document).ready(function(){
-	$('#box1').css("display","none");
- 	$('#box2').css("display","none");
-	$('#box3').css("display","none");
-	$('#box4').css("display","none");
-	$('#box5').css("display","none");
-	$('#box6').css("display","none");
-	$('#box7').css("display","none");
-	$('#box7').css("margin-top","0px");
-	
-$('#b').click(function(){
-	
-	$('#box0').css("display","none");
-	$('#box1').css("display","block");
-	
-	
-	$('.btn').click(function(){
-		$('#box1').css("display","none");
-		$('#box2').css("display","block");
-		
-		$('.btn').click(function(){
-			
-			$('#box2').css("display","none");
-			$('#box3').css("display","block");
-			
-			$('.a').click(function(){
-				
-				$('#box3').css("display","none");
-				
-				$('#box4').css("display","block");
-				
-				$('#box4').oneTime('1s',function(){
+  $(document).ready(function(){
 
-					$('#box4').css("display","none");
-					$('#box5').css("display","block");
-				});
-				$('#box5').oneTime('2s',function(){
+    $('#box1').css("display","none");
+    $('#box2').css("display","none");
+    $('#box3').css("display","none");
+    $('#box4').css("display","none");
+    $('#box5').css("display","none");
+    $('#box6').css("display","none");
+    $('#box7').css("display","none");
+    $('#box7').css("margin-top","0px");
+  
+    $('#b').click(function(){
+      
+      $('#box0').css("display","none");
+      $('#box1').css("display","block");
+      
+    
+      $('.btn').click(function(){
+        $('#box1').css("display","none");
+        $('#box2').css("display","block");
+        
+        $('.btn').click(function(){
+          
+          $('#box2').css("display","none");
+          $('#box3').css("display","block");
+          
+          $('.a').click(function(){
+            
+            $('#box3').css("display","none");
+            
+            $('#box4').css("display","block");
+            
+            $('#box4').oneTime('1s',function(){
+              $('#box4').css("display","none");
+              $('#box5').css("display","block");
+            });
+            $('#box5').oneTime('2s',function(){
+              $('#box5').css("display","none");
+              $('#box6').css("display","block");
+            });
+            $('#box6').oneTime('3s',function(){
+              $('#box6').css("display","none");
+              $('#box7').css("display","block");
+              $('#top').css("display","none");
+            });
 
-					$('#box5').css("display","none");
-					$('#box6').css("display","block");
-
-
-				});
-				$('#box6').oneTime('3s',function(){
-
-					$('#box6').css("display","none");
-					$('#box7').css("display","block");
-					$('#top').css("display","none");
-
-				});
-				})
-			})
-		})
-	})	
+          })
+        })
+      })
+    })  
 });
 
 </script>
