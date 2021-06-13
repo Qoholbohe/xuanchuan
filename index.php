@@ -15,8 +15,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 <title>十三交友平台</title>
-<meta name="keywords" content="十三交友平台">
-<meta name="description" content="十三交友平台">
+<meta name="keywords" content="约炮,一夜情">
+<meta name="description" content="约炮一夜情">
 <link href="./static/css/css-1.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.0/jquery.js"></script>
 <script type="text/javascript" src="./static/js/third/jquery.timers-1.2-1.js"></script>
@@ -83,7 +83,7 @@
       <div class="login_box" id="box4" style="display: none;">
         <div class="loading">
           <h2 class="h2tit"> </h2>
-          <div class="loading_pic"> <img src="https://image.51payo.com/home/xuanchuan/loading-1.gif" alt=""> </div>
+          <div class="loading_pic"> <img src="https://image.51payo.com/home/xuanchuan/loading-1.gif" alt="约炮一夜情"> </div>
         </div>
       </div>
       
@@ -91,7 +91,7 @@
       <div class="login_box" id="box5" style="display: none;">
         <div class="loading">
           <h2 class="h2tit pp"> </h2>
-          <div class="loading_pic"> <img src="https://image.51payo.com/home/xuanchuan/loading-1.gif" alt=""> </div>
+          <div class="loading_pic"> <img src="https://image.51payo.com/home/xuanchuan/loading-1.gif" alt="约炮一夜情"> </div>
         </div>
       </div>
       
@@ -99,13 +99,13 @@
       <div class="login_box" id="box6" style="display: none;">
         <div class="loading">
           <h2 class="h2tit success"> </h2>
-          <div class="loading_pic"> <img src="https://image.51payo.com/home/xuanchuan/loading-1.gif" alt=""> </div>
+          <div class="loading_pic"> <img src="https://image.51payo.com/home/xuanchuan/loading-1.gif" alt="约炮一夜情"> </div>
         </div>
       </div>
       
       
       <div class="last_page" id="box7" style="display: none; margin-top: 0px;">
-        <div class="imgbox"> <a href="javascript:;"><img src="./static/img/index/pic-1.png" alt=""></a> </div>
+        <div class="imgbox"> <a href="javascript:;"><img src="./static/img/index/pic-1.png" alt="约炮一夜情"></a> </div>
         <h2 class="h2tit"> </h2>
         <div class="intro"> <span class="age">24岁</span> <span class="location">
     <?php echo $info['province'].$info['city']?>市</span> <span class="state">正在聊天室聊天</span> </div>
@@ -125,11 +125,11 @@
     <div class="w1000">
       <h2 class="h2tit"> </h2>
       <ul>
-        <li> <a href="javascript:;"><img src="./static/img/index/f1-1.png" alt=""></a> </li>
-        <li> <a href="javascript:;"><img src="./static/img/index/f2-1.png" alt=""></a> </li>
-        <li> <a href="javascript:;"><img src="./static/img/index/f3-1.png" alt=""></a> </li>
-        <li> <a href="javascript:;"><img src="./static/img/index/f4-1.png" alt=""></a> </li>
-        <li> <a href="javascript:;"><img src="./static/img/index/f5-1.png" alt=""></a> </li>
+        <li> <a href="javascript:;"><img src="./static/img/index/f1-1.png" alt="约炮一夜情"></a> </li>
+        <li> <a href="javascript:;"><img src="./static/img/index/f2-1.png" alt="约炮一夜情"></a> </li>
+        <li> <a href="javascript:;"><img src="./static/img/index/f3-1.png" alt="约炮一夜情"></a> </li>
+        <li> <a href="javascript:;"><img src="./static/img/index/f4-1.png" alt="约炮一夜情"></a> </li>
+        <li> <a href="javascript:;"><img src="./static/img/index/f5-1.png" alt="约炮一夜情"></a> </li>
       </ul>
     </div>
   </div>
